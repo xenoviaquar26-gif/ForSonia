@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy 2nd Wedding Anniversary ❤️</title>
+
+    <meta name="description"
+        content="Happy 2nd Wedding Anniversary Sonia ❤️">
+
+    <meta name="theme-color" content="#081229">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- Animated Background -->
+    <!-- ================================= -->
+
+    <canvas id="nightCanvas"></canvas>
+
+    <div id="stars"></div>
+
+    <div id="shooting-stars"></div>
+
+    <div id="moon"></div>
+
+    <div id="petals"></div>
+
+    <div id="hearts"></div>
+
+    <!-- ================================= -->
+    <!-- Loader -->
+    <!-- ================================= -->
+
+    <div id="loader">
+
+        <div class="loader-box">
+
+            <div class="loader-heart">
+
+                ❤️
+
+            </div>
+
+            <h2>
+
+                Loading...
+
+            </h2>
+
+            <p>
+
+                Preparing Your Surprise
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ================================= -->
+    <!-- Hero -->
+    <!-- ================================= -->
+
+    <section id="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+
+                Happy
+
+            </p>
+
+            <h1>
+
+                2nd Wedding Anniversary
+
+            </h1>
+
+            <h2>
+
+                Sonia ❤️
+
+            </h2>
+
+            <p class="date">
+
+                7 Juli 2024
+
+            </p>
+
+            <button id="openGift">
+
+                🎁 Buka Hadiah
+
+            </button>
+
+        </div>
+
+    </section>
+    <!-- ================================= -->
+    <!-- Love Letter -->
+    <!-- ================================= -->
+
+    <section id="love-letter">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                💌 Surat Untuk Sonia
+            </h2>
+
+            <div class="letter-card">
+
+                <p id="typingText"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================================= -->
+    <!-- Love Story -->
+    <!-- ================================= -->
+
+    <section id="love-story">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                ❤️ Perjalanan Cinta Kita
+            </h2>
+
+            <div class="story-grid">
+
+                <div class="story-card">
+
+                    <div class="story-icon">
+                        💕
+                    </div>
+
+                    <h3>
+                        Awal Bertemu
+                    </h3>
+
+                    <p>
+                        Semua berawal dari sebuah pertemuan sederhana,
+                        yang akhirnya menjadi awal dari kisah terindah
+                        dalam hidupku.
+                    </p>
+
+                </div>
+
+                <div class="story-card">
+
+                    <div class="story-icon">
+                        🌹
+                    </div>
+
+                    <h3>
+                        Menjalin Hubungan
+                    </h3>
+
+                    <p>
+                        Hari demi hari kita belajar saling memahami,
+                        saling mendukung, dan tumbuh bersama.
+                    </p>
+
+                </div>
+
+                <div class="story-card">
+
+                    <div class="story-icon">
+                        💍
+                    </div>
+
+                    <h3>
+                        Hari Pernikahan
+                    </h3>
+
+                    <p>
+                        7 Juli 2024 menjadi hari yang mengubah
+                        segalanya. Hari ketika kita resmi menjadi
+                        suami dan istri.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================================= -->
+    <!-- Gallery -->
+    <!-- ================================= -->
+
+    <section id="gallery">
+
+        <div class="container">
+
+            <h2 class="section-title">
+
+                📸 Galeri Kenangan
+
+            </h2>
+
+            <div class="gallery-slider">
+
+                <button class="gallery-btn prev">
+
+                    <i class="fa-solid fa-chevron-left"></i>
+
+                </button>
+
+                <div class="gallery-wrapper">
+
+                    <img
+                        src="assets/images/foto1.jpg"
+                        class="gallery-photo active"
+                        alt="Foto 1">
+
+                    <img
+                        src="assets/images/foto2.jpg"
+                        class="gallery-photo"
+                        alt="Foto 2">
+
+                    <img
+                        src="assets/images/foto3.jpg"
+                        class="gallery-photo"
+                        alt="Foto 3">
+
+                </div>
+
+                <button class="gallery-btn next">
+
+                    <i class="fa-solid fa-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+            <div class="gallery-dots">
+
+                <span class="dot active"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ================================= -->
+    <!-- Timeline -->
+    <!-- ================================= -->
+
+    <section id="timeline">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                ⏳ Perjalanan Kita
+            </h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Awal Bertemu</h3>
+                        <p>Tak pernah kusangka pertemuan sederhana menjadi awal dari kisah cinta terindah dalam hidupku.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Mulai Bersama</h3>
+                        <p>Kita belajar saling memahami, saling menguatkan, dan saling mencintai setiap hari.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>7 Juli 2024</h3>
+                        <p>Hari paling indah ketika kita mengikat janji suci sebagai suami dan istri.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================================= -->
+    <!-- Love Counter -->
+    <!-- ================================= -->
+
+    <section id="counter">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                ❤️ Sudah Bersama Selama
+            </h2>
+
+            <div class="counter-grid">
+
+                <div class="counter-card">
+                    <h3 id="years">0</h3>
+                    <span>Tahun</span>
+                </div>
+
+                <div class="counter-card">
+                    <h3 id="months">0</h3>
+                    <span>Bulan</span>
+                </div>
+
+                <div class="counter-card">
+                    <h3 id="days">0</h3>
+                    <span>Hari</span>
+                </div>
+
+                <div class="counter-card">
+                    <h3 id="hours">0</h3>
+                    <span>Jam</span>
+                </div>
+
+                <div class="counter-card">
+                    <h3 id="minutes">0</h3>
+                    <span>Menit</span>
+                </div>
+
+                <div class="counter-card">
+                    <h3 id="seconds">0</h3>
+                    <span>Detik</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================================= -->
+    <!-- 10 Reasons -->
+    <!-- ================================= -->
+
+    <section id="reasons">
+
+        <div class="container">
+
+            <h2 class="section-title">
+                🌹 10 Alasan Aku Mencintaimu
+            </h2>
+
+            <div class="reason-grid">
+
+                <div class="reason-card">❤️ Senyummu selalu menenangkan hatiku.</div>
+                <div class="reason-card">❤️ Kesabaranmu membuatku belajar menjadi lebih baik.</div>
+                <div class="reason-card">❤️ Kamu selalu mendukungku dalam keadaan apa pun.</div>
+                <div class="reason-card">❤️ Kamu membuat rumah terasa hangat.</div>
+                <div class="reason-card">❤️ Kamu adalah sahabat terbaikku.</div>
+                <div class="reason-card">❤️ Bersamamu aku merasa lengkap.</div>
+                <div class="reason-card">❤️ Kamu selalu membuatku tersenyum.</div>
+                <div class="reason-card">❤️ Kita tumbuh bersama setiap hari.</div>
+                <div class="reason-card">❤️ Aku bangga memilikimu.</div>
+                <div class="reason-card">❤️ Aku akan selalu memilihmu setiap hari.</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================================= -->
+    <!-- Quote -->
+    <!-- ================================= -->
+
+    <section id="quote">
+
+        <div class="container">
+
+            <blockquote>
+
+                "Terima kasih telah menjadi rumah,
+                teman, sekaligus cinta terbaik
+                dalam hidupku."
+
+            </blockquote>
+
+        </div>
+
+    </section>
+
+    <!-- ================================= -->
+    <!-- Ending -->
+    <!-- ================================= -->
+
+    <section id="ending">
+
+        <div class="container">
+
+            <h2>
+                Happy 2nd Wedding Anniversary ❤️
+            </h2>
+
+            <h1>
+                Sonia
+            </h1>
+
+            <p>
+
+                Semoga cinta kita selalu tumbuh,
+                semakin kuat,
+                dan selalu dipenuhi kebahagiaan.
+
+            </p>
+
+            <button id="replay">
+
+                ❤️ Putar Lagi
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================================= -->
+    <!-- Footer -->
+    <!-- ================================= -->
+
+    <footer>
+
+        Made with ❤️ by Your Husband
+
+    </footer>
+
+    <!-- Music -->
+
+    <audio
+        id="bgMusic"
+        loop>
+
+        <source
+            src="assets/music/music.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
